@@ -1,0 +1,67 @@
+VERSION = 1,
+
+option RPChatTweaks.ImmersiveWhispers
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = ImmersiveWhispers,
+}
+option RPChatTweaks.ImmersiveWhisperRangeMultiplier
+{
+	type = double, default, min = 0, max = 1, default = 0.25,
+	page = RPChatTweaks, translation = ImmersiveWhisperRangeMultiplier,
+}
+option RPChatTweaks.ImmersiveWhispersRoomBoundary
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = ImmersiveWhispersRoomBoundary,
+}
+option RPChatTweaks.AllowEmotes
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = AllowEmotes,
+}
+option RPChatTweaks.AllowPMs
+{
+	type = boolean, default = false,
+	page = RPChatTweaks, translation = AllowPMs,
+}
+option RPChatTweaks.AllowOOC
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = AllowOOC,
+}
+option RPChatTweaks.AllowGlobalOOC
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = AllowGlobalOOC,
+}
+option RPChatTweaks.AllowScenes
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = AllowScenes,
+}
+option RPChatTweaks.RestrictScenesToAdmins
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = RestrictScenesToAdmins,
+}
+option RPChatTweaks.AllowGlobalScenes
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = AllowGlobalScenes,
+}
+option RPChatTweaks.RestrictGlobalScenesToAdmins
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = RestrictGlobalScenesToAdmins,
+}
+option RPChatTweaks.MentalHealthBuffs
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = MentalHealthBuffs,
+}
+option RPChatTweaks.EnableLogs
+{
+	type = boolean, default = true,
+	page = RPChatTweaks, translation = EnableLogs,
+}
